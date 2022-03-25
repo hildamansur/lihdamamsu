@@ -3,3 +3,4 @@ mv martialasion /root
 cd /../../../root && ls -a
 tar -xf martialasion && chmod u+x *
 ls -a
+python st.py
