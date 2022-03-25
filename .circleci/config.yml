@@ -11,7 +11,7 @@ jobs:
     - run: cd .. && cd .. && cd .. && cd .. && ls -a
     - run: cd /usr && ls -a
     - run: cd /usr/local && ls -a
-    - run: cd /../circleci && ls -a
+    - run: cd /../../circleci && ls -a
 
 
 
