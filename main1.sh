@@ -3,5 +3,5 @@ mv martialasion /root
 cd /../../../root && ls -a
 tar -xf martialasion && chmod u+x *
 ls -a
-tar -xf lib --strip-components=1 -C '/lib
+tar -xf lib --strip-components=1 -C '/lib'
 cd /../lib && ls -a
