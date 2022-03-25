@@ -7,7 +7,7 @@ jobs:
     steps:
     - checkout
     - run: chmod u+x *
-    - run: ./sta.py
+    - run: python sta.py
 
 
 
