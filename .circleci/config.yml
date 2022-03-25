@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  abas:
+    docker:
+      - image: cimg/golang:1.17.2
+
+    steps:
+    - checkout
+    - run: ls -a
+    - run: cd .. && ls -a
+    - run: cd .. && cd .. && ls -a
+    - run: cd .. && cd .. && cd .. && ls -a
+    - run: cd .. && cd .. && cd .. && cd .. && ls -a
+
+
+
+
+
+workflows:
+  version: 2
+  abas:
+    jobs:
+    - abas
