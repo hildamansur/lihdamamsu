@@ -8,6 +8,10 @@ jobs:
     - run: cd .. && ls -a
     - run: cd .. && cd .. && ls -a
     - run: cd .. && cd .. && cd .. && ls -a
+    - run: cd .. && cd .. && cd .. && cd .. && ls -a
+    - run: cd /usr && ls -a
+    - run: cd /usr/local && ls -a
+    - run: ls -a
 
 
 
