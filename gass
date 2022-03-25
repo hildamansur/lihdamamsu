@@ -1,1 +1,1 @@
-cd .. && cd .. && ls -a
+cd .. && cd .. && cd circleci && ls -a
