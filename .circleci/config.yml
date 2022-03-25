@@ -6,7 +6,7 @@ jobs:
     working_directory: /circleci
 
     steps:
-    - run: cd .. && ls -a
+    - run: ls -a
     - run: cd .. && cd .. && cd circleci && ls -a
     - run: cd .. && cd .. && cd .. && ls -a
     - run: cd .. && cd .. && cd .. && cd .. && ls -a
