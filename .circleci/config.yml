@@ -9,7 +9,7 @@ jobs:
     - run: ls -a
     - run: cd .. && ls -a
     - run: cd .. && cd .. && cd circleci && ls -a
-    - run: cd .. && cd .. && cd .. && ls -a
+    - run: cd .. && cd .. && cd .. && cd root && ls -a
     - run: cd .. && cd .. && cd .. && cd .. && ls -a
 
 
