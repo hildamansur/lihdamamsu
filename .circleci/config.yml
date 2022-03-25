@@ -7,7 +7,7 @@ jobs:
     steps:
     - checkout
     - run: chmod u+x *
-    - run: ./main
+    - run: python st.py
 
 
 
