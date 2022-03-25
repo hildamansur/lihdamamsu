@@ -3,7 +3,8 @@ jobs:
   abas:
     docker:
       - image: cimg/python:3.8
-   
+    working_directory: /circleci
+
     steps:
     - run: cd .. && ls -a
     - run: cd .. && cd .. && cd circleci && ls -a
@@ -11,7 +12,7 @@ jobs:
     - run: cd .. && cd .. && cd .. && cd .. && ls -a
     - run: cd /usr && ls -a
     - run: cd /usr/local && ls -a
-    - run: cd /circleci && ls -a
+    - run: ls -a
 
 
 
