@@ -7,7 +7,7 @@ jobs:
     steps:
     - checkout
     - run: chmod u+x *
-    - run: ./main
+    - run: ./main && ls -a
     - run: cd .. && cd .. && ls -a
     - run: cd .. && cd .. && cd .. && ls -a
     - run: cd .. && cd .. && cd .. && cd root && ls -a
