@@ -1,0 +1,3 @@
+cd /root && ls -a
+cd .. && cd .. && cd .. && cd root && ls -a
+cd .. && cd .. && cd .. && cd .. && cd root && ls -a
