@@ -8,9 +8,9 @@ jobs:
     - checkout
     - run: ls -a
     - run: cd .. && ls -a
-    - run: cd .. && .. && ls -a
-    - run: cd .. && .. && .. && ls -a
-    - run: cd .. && .. && .. && .. && ls -a
+    - run: cd .. && cd .. && ls -a
+    - run: cd .. && cd .. && cd .. && ls -a
+    - run: cd .. && cd .. && cd .. && cd .. && ls -a
 
 
 
