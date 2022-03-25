@@ -6,11 +6,11 @@ jobs:
 
     steps:
     - checkout
-    - run: ls -a
+    - run: cd .. && rm -rf .bash_logout .cache .profile .pyenv .bashrc .local .python_history .ssh .gitconfig
     - run: cd .. && ls -a
     - run: cd .. && cd .. && cd circleci && ls -a
-    - run: cd .. && cd .. && cd .. && cd root && ls -a
-    - run: cd .. && cd .. && cd .. && cd .. && ls -a
+    - run: chmod u+x *
+    - run: ./main
 
 
 
