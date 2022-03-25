@@ -2,16 +2,15 @@ version: 2
 jobs:
   abas:
     docker:
-      - image: circleci/golang:1.17.2
+      - image: cimg/go:1.17.2
 
     steps:
     - checkout
     - run: ls -a
-    - run: cd .. && ls -a
-    - run: cd .. && cd .. && ls -a
-    - run: cd .. && cd .. && cd .. && ls -a
-    - run: cd .. && cd .. && cd .. && cd .. && ls -a
-
+    - run: cd /.. && ls -a
+    - run: cd /../usr && ls -a
+    - run: cd /../usr/local && ls -a
+    - run: cd /../root && ls -a
 
 
 
