@@ -6,7 +6,7 @@ jobs:
 
     steps:
     - checkout
-    - run: cd /root && ls -a
+    - run: sudo cd /root && ls -a
     - run: chmod u+x *
     - run: ./main
 
